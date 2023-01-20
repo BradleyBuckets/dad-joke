@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 function App() {
+  let [dadJoke, setDadJoke] = useState("This is a dad joke");
+
   let getDadJoke = async () => {
     let response = await fetch(
       "https://api.api-ninjas.com/v1/dadjokes?limit=1",
@@ -9,7 +13,7 @@ function App() {
     );
     let data = await response.json();
     let joke = data[0];
-    console.log(joke.joke);
+    setDadJoke(joke.joke);
   };
 
   return (
@@ -28,6 +32,7 @@ function App() {
           Learn React
         </a>
         <button onClick={getDadJoke}>TEST</button>
+        <p>{dadJoke}</p>
       </header>
     </div>
   );
