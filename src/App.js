@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function App() {
-  let [dadJoke, setDadJoke] = useState("This is a dad joke");
+  let [dadJoke, setDadJoke] = useState([]);
 
   let getDadJoke = async () => {
     let response = await fetch(
@@ -13,13 +13,27 @@ function App() {
     );
     let data = await response.json();
     let joke = data[0];
-    setDadJoke(joke.joke);
+    let string = joke.joke;
+    let array = string
+      .split("? ")
+      .join("?*")
+      .split(",")
+      .join(",*")
+      .split(". ")
+      .join(".*")
+      .split("*");
+    console.log(array);
+    setDadJoke(array);
   };
 
   return (
     <div className="App">
       <button onClick={getDadJoke}>TEST</button>
-      <p>{dadJoke}</p>
+      <div className="container">
+        {dadJoke.map((item) => (
+          <p>{item}</p>
+        ))}
+      </div>{" "}
     </div>
   );
 }
