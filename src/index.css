@@ -20,7 +20,7 @@ img {
 
 .container {
   box-sizing: border-box;
-  background-color: azure;
+  background-color: whitesmoke;
   height: 500px;
   width: 400px;
   position: absolute;
@@ -33,4 +33,26 @@ img {
   font-size: 1.875rem; /* 30px */
   line-height: 2.25rem; /* 36px */
   padding: 1rem; /* 16px */
+}
+.out {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-right: 60px solid black;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 190px;
+  right: 600px;
+}
+.in {
+  width: 0;
+  height: 0;
+  border-top: 55px solid transparent;
+  border-bottom: 55px solid transparent;
+  border-right: 55px solid whitesmoke;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 212px;
+  right: 595px;
 }

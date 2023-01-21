@@ -35,7 +35,9 @@ function App() {
         {dadJoke.map((item) => (
           <p>{item}</p>
         ))}
-      </div>{" "}
+      </div>
+      <div className="out"></div>
+      <div className="in"></div>
     </div>
   );
 }
