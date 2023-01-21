@@ -2,7 +2,9 @@ import { useState } from "react";
 import dad from "./dad.png";
 
 function App() {
-  let [dadJoke, setDadJoke] = useState(["Click me for a dad joke!"]);
+  let [dadJoke, setDadJoke] = useState([
+    "Please click on my face for a dad joke!",
+  ]);
 
   let getDadJoke = async () => {
     let response = await fetch(
@@ -23,7 +25,6 @@ function App() {
       .split(". ")
       .join(".*")
       .split("*");
-    console.log(array);
     setDadJoke(array);
   };
 
@@ -31,7 +32,7 @@ function App() {
     <div className="App">
       <div className="button" onClick={getDadJoke}></div>
       <img src={dad} alt="cartoon dad" />
-      <div className="container">
+      <div className="container move">
         {dadJoke.map((item) => (
           <p>{item}</p>
         ))}
