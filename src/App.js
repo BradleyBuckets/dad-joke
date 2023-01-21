@@ -1,4 +1,5 @@
 import { useState } from "react";
+import dad from "./dad.png";
 
 function App() {
   let [dadJoke, setDadJoke] = useState([]);
@@ -29,6 +30,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={getDadJoke}>TEST</button>
+      <img src={dad} alt="cartoon dad" />
       <div className="container">
         {dadJoke.map((item) => (
           <p>{item}</p>

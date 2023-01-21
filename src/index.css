@@ -1,13 +1,18 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+img {
+  z-index: -1;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  transform: scale(175%);
+  left: 185px;
+  bottom: 185px;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
 }
