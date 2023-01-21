@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: tomato;
 }
 
 img {
@@ -15,4 +16,21 @@ img {
 .app {
   height: 100vh;
   width: 100vw;
+}
+
+.container {
+  box-sizing: border-box;
+  background-color: azure;
+  height: 500px;
+  width: 400px;
+  position: absolute;
+  top: 50px;
+  left: 700px;
+  border: 10px solid black;
+  border-radius: 32px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  padding: 1rem; /* 16px */
 }
