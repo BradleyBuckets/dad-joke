@@ -2,7 +2,7 @@ import { useState } from "react";
 import dad from "./dad.png";
 
 function App() {
-  let [dadJoke, setDadJoke] = useState([]);
+  let [dadJoke, setDadJoke] = useState(["Click me for a dad joke!"]);
 
   let getDadJoke = async () => {
     let response = await fetch(
@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={getDadJoke}>TEST</button>
+      <div className="button" onClick={getDadJoke}></div>
       <img src={dad} alt="cartoon dad" />
       <div className="container">
         {dadJoke.map((item) => (

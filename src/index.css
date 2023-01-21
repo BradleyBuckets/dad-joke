@@ -28,8 +28,8 @@ img {
   left: 700px;
   border: 10px solid black;
   border-radius: 32px;
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
-    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.4),
+    0 8px 10px -6px rgb(0 0 0 / 0.4);
   font-size: 1.875rem; /* 30px */
   line-height: 2.25rem; /* 36px */
   padding: 1rem; /* 16px */
@@ -42,8 +42,8 @@ img {
   border-right: 60px solid black;
   transform: rotate(45deg);
   position: absolute;
-  bottom: 190px;
-  right: 600px;
+  top: 510px;
+  left: 780px;
 }
 .in {
   width: 0;
@@ -53,6 +53,17 @@ img {
   border-right: 55px solid whitesmoke;
   transform: rotate(45deg);
   position: absolute;
-  bottom: 212px;
-  right: 595px;
+  top: 498px;
+  left: 790px;
+}
+
+.button {
+  height: 450px;
+  width: 350px;
+  background-color: transparent;
+  position: absolute;
+  top: 150px;
+  left: 120px;
+  border-radius: 32px;
+  cursor: pointer;
 }
