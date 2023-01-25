@@ -67,3 +67,49 @@ img {
   border-radius: 32px;
   cursor: pointer;
 }
+
+.cross {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  background: url("./cross.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.one {
+  bottom: 300px;
+  left: 50px;
+  transform: rotate(-90deg);
+}
+.two {
+  bottom: 300px;
+  left: 50px;
+  transform: rotate(-90deg);
+}
+.three {
+  bottom: 300px;
+  left: 50px;
+  transform: rotate(-90deg);
+}
+.four {
+  bottom: 300px;
+  left: 50px;
+  transform: rotate(-90deg);
+}
+.five {
+  bottom: 300px;
+  left: 50px;
+  transform: rotate(-90deg);
+}
+.six {
+  bottom: 300px;
+  left: 50px;
+  transform: rotate(-90deg);
+}
+.seven {
+  bottom: 300px;
+  left: 50px;
+  transform: rotate(-90deg);
+}

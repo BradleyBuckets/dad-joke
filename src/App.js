@@ -39,6 +39,14 @@ function App() {
       </div>
       <div className="out"></div>
       <div className="in"></div>
+      <div className="cross one"></div>
+      <div className="cross two"></div>
+      <div className="cross three"></div>
+      <div className="cross three"></div>
+      <div className="cross four"></div>
+      <div className="cross five"></div>
+      <div className="cross six"></div>
+      <div className="cross seven"></div>
     </div>
   );
 }
