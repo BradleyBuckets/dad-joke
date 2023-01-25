@@ -80,36 +80,35 @@ img {
 
 .one {
   bottom: 300px;
-  left: 50px;
+  left: 70px;
   transform: rotate(-90deg);
 }
 .two {
-  bottom: 300px;
+  bottom: 550px;
   left: 50px;
-  transform: rotate(-90deg);
+  transform: rotate(70deg);
 }
 .three {
-  bottom: 300px;
-  left: 50px;
-  transform: rotate(-90deg);
+  top: 50px;
+  left: 300px;
 }
 .four {
-  bottom: 300px;
-  left: 50px;
-  transform: rotate(-90deg);
+  bottom: 70px;
+  left: 900px;
+  transform: rotate(-10deg);
 }
 .five {
-  bottom: 300px;
-  left: 50px;
-  transform: rotate(-90deg);
+  bottom: 150px;
+  left: 1210px;
+  transform: rotate(-60deg);
 }
 .six {
-  bottom: 300px;
-  left: 50px;
-  transform: rotate(-90deg);
+  top: 200px;
+  left: 1270px;
+  transform: rotate(90deg);
 }
 .seven {
   bottom: 300px;
-  left: 50px;
-  transform: rotate(-90deg);
+  left: 500px;
+  transform: rotate(160deg);
 }
