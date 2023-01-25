@@ -93,24 +93,29 @@ img {
   left: 300px;
 }
 .four {
-  bottom: 70px;
+  bottom: 150px;
   left: 900px;
   transform: rotate(-10deg);
 }
 .five {
-  bottom: 150px;
+  bottom: 70px;
   left: 1210px;
   transform: rotate(-60deg);
 }
 .six {
-  top: 200px;
-  left: 1270px;
-  transform: rotate(90deg);
+  top: 180px;
+  left: 1325px;
+  transform: rotate(120deg);
 }
 .seven {
   bottom: 300px;
   left: 500px;
   transform: rotate(160deg);
+}
+.eight {
+  bottom: 320px;
+  left: 1300px;
+  transform: rotate(90deg);
 }
 
 .line {
@@ -152,4 +157,34 @@ img {
   top: 500px;
   left: 600px;
   transform: rotate(160deg);
+}
+.r1 {
+  top: 60px;
+  left: 1170px;
+  transform: rotate(-20deg);
+}
+.r2 {
+  top: 150px;
+  left: 1200px;
+  transform: rotate(-10deg);
+}
+.r3 {
+  top: 240px;
+  left: 1150px;
+  transform: rotate(-20deg);
+}
+.r4 {
+  top: 330px;
+  left: 1180px;
+  transform: rotate();
+}
+.r5 {
+  top: 430px;
+  left: 1150px;
+  transform: rotate(5deg);
+}
+.r6 {
+  top: 510px;
+  left: 1170px;
+  transform: rotate(10deg);
 }
