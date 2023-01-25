@@ -47,6 +47,7 @@ function App() {
       <div className="cross five"></div>
       <div className="cross six"></div>
       <div className="cross seven"></div>
+      <div className="line"></div>
     </div>
   );
 }
